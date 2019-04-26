@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AndroidLatihan9</string>
+
+    <string name="book_details">People Details</string>
+    <string name="add_book">Add People</string>
+
+    <string name="judul_buku">Judul Buku</string>
+    <string name="penulis">Penulis</string>
+    <string name="penerbit">Penerbit</string>
+    <string name="terbit">Terbit</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="hint_twitter">Twitter</string>
+
+    <string name="book_id">PEOPLE_ID</string>
+    <string name="search">Search</string>
+    <string name="save">Save</string>
+</resources>

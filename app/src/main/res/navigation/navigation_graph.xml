@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/navigation_graph" app:startDestination="@id/listBookFragment">
+
+    <fragment android:id="@+id/listBookFragment"
+              android:name="com.example.myapplication.views.views_list.ListBookFragment"
+              android:label="Contact List">
+        <action android:id="@+id/action_listBookFragment_to_fragmentAddBook"
+                app:destination="@id/fragmentAddBook"/>
+        <action android:id="@+id/action_listBookFragment_to_detailFragment" app:destination="@id/detailFragment"/>
+    </fragment>
+    <fragment android:id="@+id/fragmentAddBook"
+              android:name="com.example.myapplication.views.view_add.FragmentAddBook"
+              android:label="Add New Contact"/>
+    <fragment android:id="@+id/detailFragment"
+              android:name="com.example.myapplication.views.views_details.DetailFragment"
+              android:label="Contact Detail"/>
+</navigation>
